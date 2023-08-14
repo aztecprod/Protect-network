@@ -27,3 +27,5 @@
 Aug 14 19:45:57 debian2 sshd[6398]: error: kex_exchange_identification: Connection closed by remote host
 Aug 14 19:45:57 debian2 sshd[6398]: Connection closed by 192.168.0.109 port 48988
 ```
+
+В обоих случаях fail2ban и suricata отреагировали лишь на -sV сканирование.
