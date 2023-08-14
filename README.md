@@ -1,4 +1,4 @@
-# Protect-network
+# Защита сети - Александр Шевцов
 ```
 08/14/2023-19:21:23.460617  [**] [1:2013409:3] ET POLICY Outbound MSSQL Connection to Non-Standard Port - Likely Malware [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.0.109:42830 -> 192.168.0.108:3000
 08/14/2023-19:21:28.465146  [**] [1:2013409:3] ET POLICY Outbound MSSQL Connection to Non-Standard Port - Likely Malware [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.0.109:42830 -> 192.168.0.108:3000
