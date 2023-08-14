@@ -29,3 +29,13 @@ Aug 14 19:45:57 debian2 sshd[6398]: Connection closed by 192.168.0.109 port 4898
 ```
 
 В обоих случаях fail2ban и suricata отреагировали лишь на -sV сканирование.
+
+
+
+Проверка работы Hydra при выключенной защиты ssh в Fail2ban:
+
+![image](https://github.com/aztecprod/Protect-network/assets/25949605/53f0ba80-abac-4e1e-9fd9-068ff17077d8)
+
+Попытка взлома при включенной защиты ssh в Fail2ban:
+
+![image](https://github.com/aztecprod/Protect-network/assets/25949605/e3ff926a-b736-46da-a849-824267d70b3b)
