@@ -1,4 +1,6 @@
 # Защита сети - Александр Шевцов
+![image](https://github.com/aztecprod/Protect-network/assets/25949605/13685f81-80d3-426f-b597-ad6351e093db)
+
 
 Запускаем nmap сканирования ноды с suricata и fail2ban
 
@@ -30,6 +32,7 @@ Aug 14 19:45:57 debian2 sshd[6398]: Connection closed by 192.168.0.109 port 4898
 
 В обоих случаях fail2ban и suricata отреагировали лишь на -sV сканирование.
 
+![image](https://github.com/aztecprod/Protect-network/assets/25949605/1d8abb60-f52a-4b39-8897-f2a8ac6f5f2b)
 
 
 Проверка работы Hydra при выключенной защиты ssh в Fail2ban:
@@ -39,3 +42,9 @@ Aug 14 19:45:57 debian2 sshd[6398]: Connection closed by 192.168.0.109 port 4898
 Попытка взлома при включенной защиты ssh в Fail2ban:
 
 ![image](https://github.com/aztecprod/Protect-network/assets/25949605/e3ff926a-b736-46da-a849-824267d70b3b)
+
+Логи Fail2ban:
+
+![image](https://github.com/aztecprod/Protect-network/assets/25949605/9b788e2b-7c4f-416b-9527-9055971e0bdd)
+
+Логи Suricata оказались пусты.
