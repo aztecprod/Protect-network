@@ -1,4 +1,10 @@
 # Защита сети - Александр Шевцов
+
+Запускаем nmap сканирования ноды с suricata и fail2ban
+![image](https://github.com/aztecprod/Protect-network/assets/25949605/9b2cfac7-b367-4765-bf12-952019d6decf)
+
+
+Логи Suricata:
 ```
 08/14/2023-19:21:23.460617  [**] [1:2013409:3] ET POLICY Outbound MSSQL Connection to Non-Standard Port - Likely Malware [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.0.109:42830 -> 192.168.0.108:3000
 08/14/2023-19:21:28.465146  [**] [1:2013409:3] ET POLICY Outbound MSSQL Connection to Non-Standard Port - Likely Malware [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.0.109:42830 -> 192.168.0.108:3000
