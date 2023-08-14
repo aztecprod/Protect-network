@@ -35,3 +35,9 @@
 08/14/2023-19:22:27.204177  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.0.108:3000 -> 192.168.0.109:46418
 
 ```
+Логи Fail2ban:
+
+```
+Aug 14 19:45:57 debian2 sshd[6398]: error: kex_exchange_identification: Connection closed by remote host
+Aug 14 19:45:57 debian2 sshd[6398]: Connection closed by 192.168.0.109 port 48988
+```
